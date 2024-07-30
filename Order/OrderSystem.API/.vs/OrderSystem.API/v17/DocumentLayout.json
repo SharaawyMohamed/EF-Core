@@ -1,0 +1,947 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\data\\ordermanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Migrations\\20240718175823_DisapleIdentityInOrderTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8016A996-36AD-4BDB-886C-20B706D5B4D0}|..\\Application\\Application.csproj|f:\\route\\projects\\order\\application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8016A996-36AD-4BDB-886C-20B706D5B4D0}|..\\Application\\Application.csproj|f:\\route\\projects\\order\\application\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\paymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\services\\ipaypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\paymentintegrations\\paypalpayment .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\settings\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:settings\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8016A996-36AD-4BDB-886C-20B706D5B4D0}|..\\Application\\Application.csproj|f:\\route\\projects\\order\\application\\services\\jwtservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8016A996-36AD-4BDB-886C-20B706D5B4D0}|..\\Application\\Application.csproj|f:\\route\\projects\\order\\application\\externalservices\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\services\\istripepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\helper\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\paymentintegrations\\creditcardpayment .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\services\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\external\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\services\\icreditcardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8016A996-36AD-4BDB-886C-20B706D5B4D0}|..\\Application\\Application.csproj|f:\\route\\projects\\order\\application\\externalservices\\emailservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\settings\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:settings\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\settings\\configurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:settings\\configurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8016A996-36AD-4BDB-886C-20B706D5B4D0}|..\\Application\\Application.csproj|f:\\route\\projects\\order\\application\\services\\productservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8016A996-36AD-4BDB-886C-20B706D5B4D0}|..\\Application\\Application.csproj|f:\\route\\projects\\order\\application\\services\\customerservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\userdtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\data\\identity\\appidentityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\data\\identity\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\data\\migrations\\20240715135527_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F6DA0ED-72B9-436B-8392-4D981C5C88A4}|..\\Core\\Core.csproj|f:\\route\\projects\\order\\core\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|f:\\route\\projects\\order\\ordersystem.api\\ordersystem.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{738886DC-2F51-48B0-ADA2-20CE2BD238B4}|OrderSystem.API.csproj|solutionrelative:ordersystem.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F63ED9A-7DD0-46F7-85C4-C6830DA806D3}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\order\\infrastructure\\data\\migrations\\20240717042034_delete user to use identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 164,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240718175823_DisapleIdentityInOrderTable.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Migrations\\20240718175823_DisapleIdentityInOrderTable.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Migrations\\20240718175823_DisapleIdentityInOrderTable.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Migrations\\20240718175823_DisapleIdentityInOrderTable.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Migrations\\20240718175823_DisapleIdentityInOrderTable.cs",
+              "ViewState": "AQIAABgAAAAAyMzMzMwmwA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:58:23.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\OrderService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\OrderService.cs",
+              "ViewState": "AQIAADwAAAAAZ2ZmZmYCwFAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:23:23.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Order.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Order.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Order.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAhwAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:42:28.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\InvoiceService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\InvoiceService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAApwC4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:13:20.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\InvoiceDto.cs",
+              "RelativeDocumentMoniker": "..\\Core\\DTOs\\InvoiceDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\InvoiceDto.cs",
+              "RelativeToolTip": "..\\Core\\DTOs\\InvoiceDto.cs",
+              "ViewState": "AQIAAAsAAADAzMzMzMw7wBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:18:58.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderManagementDbContext.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\OrderManagementDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\OrderManagementDbContext.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\OrderManagementDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\OrderManagementDbContext.cs",
+              "ViewState": "AQIAABEAAACgmZmZmZktwBUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:14:49.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Invoice.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Invoice.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Invoice.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvw8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:43:16.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\OrderItem.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\OrderItem.cs",
+              "RelativeToolTip": "..\\Core\\Models\\OrderItem.cs",
+              "ViewState": "AQIAAAcAAADAmJmZmZkuwA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:42:45.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentDetails.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\PaymentDetails.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\PaymentDetails.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\PaymentDetails.cs",
+              "RelativeToolTip": "..\\Core\\Models\\PaymentDetails.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:07:28.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Product.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Product.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Product.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:43:04.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "..\\Core\\DTOs\\OrderDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "..\\Core\\DTOs\\OrderDto.cs",
+              "ViewState": "AQIAAAQAAABAy8zMzMwYwAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T20:32:44.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPayPalPayment.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IPayPalPayment.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Services\\IPayPalPayment.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IPayPalPayment.cs",
+              "RelativeToolTip": "..\\Core\\Services\\IPayPalPayment.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAhwAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:04:05.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PayPalPayment .cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\PaymentIntegrations\\PayPalPayment .cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PaymentIntegrations\\PayPalPayment .cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\PaymentIntegrations\\PayPalPayment .cs",
+              "RelativeToolTip": "..\\Infrastructure\\PaymentIntegrations\\PayPalPayment .cs",
+              "ViewState": "AQIAAAwAAAAAzczMzAwtwBEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:54:18.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AQIAABoAAABAMzMzMzP7vyQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:08:06.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\Core\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAkAAACAZGZmZmYEwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:46:11.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:08:03.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Settings\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Settings\\DataSeeder.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Settings\\DataSeeder.cs",
+              "RelativeToolTip": "Settings\\DataSeeder.cs",
+              "ViewState": "AQIAAA8AAACA//////8fwCAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T22:08:03.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T23:51:55.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T23:56:53.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Services\\IOrderService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IOrderService.cs",
+              "RelativeToolTip": "..\\Core\\Services\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:47:51.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "..\\Core\\DTOs\\ProductDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "..\\Core\\DTOs\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T22:48:09.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "..\\Core\\DTOs\\OrderItemDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\OrderItemDto.cs",
+              "RelativeToolTip": "..\\Core\\DTOs\\OrderItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:36:57.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T23:57:45.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JwtService .cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\JwtService .cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\JwtService .cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\JwtService .cs",
+              "RelativeToolTip": "..\\Application\\Services\\JwtService .cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvw4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:09:20.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADUAAABAy8zMzIwnwD4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:41:21.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T15:28:23.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T12:50:27.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MailSettings.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Application\\ExternalServices\\MailSettings.cs",
+              "RelativeDocumentMoniker": "..\\Application\\ExternalServices\\MailSettings.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Application\\ExternalServices\\MailSettings.cs",
+              "RelativeToolTip": "..\\Application\\ExternalServices\\MailSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:12:31.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IStripePayment.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IStripePayment.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Services\\IStripePayment.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IStripePayment.cs",
+              "RelativeToolTip": "..\\Core\\Services\\IStripePayment.cs",
+              "ViewState": "AQIAAAIAAAA4ZmZmZiYwwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:52:04.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SessionHelper.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Helper\\SessionHelper.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Helper\\SessionHelper.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Helper\\SessionHelper.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Helper\\SessionHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:24:49.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceController.cs",
+              "ViewState": "AQIAACYAAABAzMzMzEwuwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T23:58:40.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreditCardPayment .cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\PaymentIntegrations\\CreditCardPayment .cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PaymentIntegrations\\CreditCardPayment .cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\PaymentIntegrations\\CreditCardPayment .cs",
+              "RelativeToolTip": "..\\Infrastructure\\PaymentIntegrations\\CreditCardPayment .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:53:34.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IInvoiceService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IInvoiceService.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Services\\IInvoiceService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IInvoiceService.cs",
+              "RelativeToolTip": "..\\Core\\Services\\IInvoiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:32:11.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\External\\IEmailService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\External\\IEmailService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\External\\IEmailService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\External\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T10:00:27.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICreditCardPayment.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\ICreditCardPayment.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Services\\ICreditCardPayment.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\ICreditCardPayment.cs",
+              "RelativeToolTip": "..\\Core\\Services\\ICreditCardPayment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:30:03.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmailService .cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Application\\ExternalServices\\EmailService .cs",
+              "RelativeDocumentMoniker": "..\\Application\\ExternalServices\\EmailService .cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Application\\ExternalServices\\EmailService .cs",
+              "RelativeToolTip": "..\\Application\\ExternalServices\\EmailService .cs",
+              "ViewState": "AQIAABkAAACAYWZmZmYRwCgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:59:09.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAACAAAAAAMzMzMzMHwDEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T23:59:40.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Settings\\Startup.cs",
+              "RelativeDocumentMoniker": "Settings\\Startup.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Settings\\Startup.cs",
+              "RelativeToolTip": "Settings\\Startup.cs",
+              "ViewState": "AQIAAAoAAADMm5mZmZkrwBIAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:18:08.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Email.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Email.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Email.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Email.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Email.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:06:55.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Configurations.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Settings\\Configurations.cs",
+              "RelativeDocumentMoniker": "Settings\\Configurations.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Settings\\Configurations.cs",
+              "RelativeToolTip": "Settings\\Configurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:28:49.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProductService .cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\ProductService .cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\ProductService .cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\ProductService .cs",
+              "RelativeToolTip": "..\\Application\\Services\\ProductService .cs",
+              "ViewState": "AQIAAB8AAADAy8zMzMwWwCcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:32:52.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Services\\IProductService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\IProductService.cs",
+              "RelativeToolTip": "..\\Core\\Services\\IProductService.cs",
+              "ViewState": "AQIAAAcAAAAAMzMzMzPjvw4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:47:53.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CustomerService .cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\CustomerService .cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\CustomerService .cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Application\\Services\\CustomerService .cs",
+              "RelativeToolTip": "..\\Application\\Services\\CustomerService .cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAtwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:55:46.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Services\\ICustomerService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "..\\Core\\Services\\ICustomerService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:46:14.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "..\\Core\\DTOs\\CustomerDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "..\\Core\\DTOs\\CustomerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:47:21.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ApiBaseController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\ApiBaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiBaseController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\Controllers\\ApiBaseController.cs",
+              "RelativeToolTip": "Controllers\\ApiBaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T12:37:20.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Services\\ITokenService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Services\\ITokenService.cs",
+              "RelativeToolTip": "..\\Core\\Services\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:46:55.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\Core\\DTOs\\UserDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "..\\Core\\DTOs\\UserDto.cs",
+              "ViewState": "AQIAAAMAAABgmZmZmZkvwAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:00:13.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserDtoResponse.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\UserDtoResponse.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\UserDtoResponse.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\UserDtoResponse.cs",
+              "RelativeToolTip": "..\\Core\\Models\\UserDtoResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:38:42.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AppIdentitySeed.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Identity\\AppIdentitySeed.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Identity\\AppIdentitySeed.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Identity\\AppIdentitySeed.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Identity\\AppIdentitySeed.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:08:15.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AppIdentityDbContext.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Identity\\AppIdentityDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Identity\\AppIdentityDbContext.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Identity\\AppIdentityDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Identity\\AppIdentityDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T04:44:13.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240717042034_Delete User To Use Identity.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Migrations\\20240717042034_Delete User To Use Identity.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Migrations\\20240717042034_Delete User To Use Identity.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Migrations\\20240717042034_Delete User To Use Identity.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Migrations\\20240717042034_Delete User To Use Identity.cs",
+              "ViewState": "AQIAAAgAAADAyszMzMwYwA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T04:20:34.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Identity\\AppUser.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Identity\\AppUser.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Identity\\AppUser.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:43:49.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240715135527_InitialCreate.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Migrations\\20240715135527_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Migrations\\20240715135527_InitialCreate.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Infrastructure\\Data\\Migrations\\20240715135527_InitialCreate.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Migrations\\20240715135527_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAACAipmZmXkwwBYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:55:27.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Models\\Customer.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\Core\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:41:37.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "..\\Core\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:04:04.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\Core\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\Core\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\Core\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAD8/////79dwA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:45:16.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "OrderSystem.API.http",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\OrderSystem.API.http",
+              "RelativeDocumentMoniker": "OrderSystem.API.http",
+              "ToolTip": "F:\\ROUTE\\Projects\\Order\\OrderSystem.API\\OrderSystem.API.http",
+              "RelativeToolTip": "OrderSystem.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-07-15T12:41:31.719Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

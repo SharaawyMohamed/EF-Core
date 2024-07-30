@@ -1,0 +1,17 @@
+F:\ROUTE\Projects\LibrarySystemAPI\Application\bin\Debug\net8.0\Application.deps.json
+F:\ROUTE\Projects\LibrarySystemAPI\Application\bin\Debug\net8.0\Application.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Application\bin\Debug\net8.0\Application.pdb
+F:\ROUTE\Projects\LibrarySystemAPI\Application\bin\Debug\net8.0\Domain.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Application\bin\Debug\net8.0\Infrastructure.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Application\bin\Debug\net8.0\Infrastructure.pdb
+F:\ROUTE\Projects\LibrarySystemAPI\Application\bin\Debug\net8.0\Domain.pdb
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\Application.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\refint\Application.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\Application.pdb
+F:\ROUTE\Projects\LibrarySystemAPI\Application\obj\Debug\net8.0\ref\Application.dll

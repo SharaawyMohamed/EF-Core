@@ -1,0 +1,507 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|f:\\route\\projects\\librarysystemapi\\presentation.api\\controllers\\borrowingrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|solutionrelative:controllers\\borrowingrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF7781-DAFF-4AEB-B0E9-72F9887CBFD6}|..\\Application\\Application.csproj|f:\\route\\projects\\librarysystemapi\\application\\services\\borrowingrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E68C2-D581-4E32-B1B9-9E11A52B44FC}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\librarysystemapi\\infrastructure\\repositories\\borrowingrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E68C2-D581-4E32-B1B9-9E11A52B44FC}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\librarysystemapi\\infrastructure\\repositories\\patronrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E68C2-D581-4E32-B1B9-9E11A52B44FC}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\librarysystemapi\\infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF7781-DAFF-4AEB-B0E9-72F9887CBFD6}|..\\Application\\Application.csproj|f:\\route\\projects\\librarysystemapi\\application\\dtos\\patrondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF7781-DAFF-4AEB-B0E9-72F9887CBFD6}|..\\Application\\Application.csproj|f:\\route\\projects\\librarysystemapi\\application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E68C2-D581-4E32-B1B9-9E11A52B44FC}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\librarysystemapi\\infrastructure\\data\\migrations\\20240730081147_inital create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\entities\\patron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|f:\\route\\projects\\librarysystemapi\\presentation.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF7781-DAFF-4AEB-B0E9-72F9887CBFD6}|..\\Application\\Application.csproj|f:\\route\\projects\\librarysystemapi\\application\\dtos\\borrowingrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF7781-DAFF-4AEB-B0E9-72F9887CBFD6}|..\\Application\\Application.csproj|f:\\route\\projects\\librarysystemapi\\application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|f:\\route\\projects\\librarysystemapi\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|f:\\route\\projects\\librarysystemapi\\presentation.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|solutionrelative:middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|f:\\route\\projects\\librarysystemapi\\presentation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|f:\\route\\projects\\librarysystemapi\\presentation.api\\controllers\\patronscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|solutionrelative:controllers\\patronscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF7781-DAFF-4AEB-B0E9-72F9887CBFD6}|..\\Application\\Application.csproj|f:\\route\\projects\\librarysystemapi\\application\\mappers\\libraryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF7781-DAFF-4AEB-B0E9-72F9887CBFD6}|..\\Application\\Application.csproj|f:\\route\\projects\\librarysystemapi\\application\\services\\patronservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BF7781-DAFF-4AEB-B0E9-72F9887CBFD6}|..\\Application\\Application.csproj|f:\\route\\projects\\librarysystemapi\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A90E68C2-D581-4E32-B1B9-9E11A52B44FC}|..\\Infrastructure\\Infrastructure.csproj|f:\\route\\projects\\librarysystemapi\\infrastructure\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\services\\iborrowingrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\services\\ipatronservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\repositories\\iborrowingrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\repositories\\ipatronrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\entities\\borrowingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964AD56F-A8CD-40F3-AE50-7957856F4F38}|..\\Domain\\Domain.csproj|f:\\route\\projects\\librarysystemapi\\domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|f:\\route\\projects\\librarysystemapi\\presentation.api\\controllers\\basapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF78D91-297F-44D6-990D-9EAB6997A192}|Presentation.API.csproj|solutionrelative:controllers\\basapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 313,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AQIAABMAAAAAMzMzMzMLwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:52:19.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatronRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Repositories\\PatronRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\PatronRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Repositories\\PatronRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\PatronRepository.cs",
+              "ViewState": "AQIAABYAAACAMjMzMzMmwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:53:49.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BorrowingRecordRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Repositories\\BorrowingRecordRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\BorrowingRecordRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Repositories\\BorrowingRecordRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\BorrowingRecordRepository.cs",
+              "ViewState": "AQIAAA4AAABoAgAAAAAewCEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:54:45.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowingRecordsController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Controllers\\BorrowingRecordsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BorrowingRecordsController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Controllers\\BorrowingRecordsController.cs",
+              "RelativeToolTip": "Controllers\\BorrowingRecordsController.cs",
+              "ViewState": "AQIAACcAAACgZGZmZmYswDYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:24:32.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BorrowingRecordService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Services\\BorrowingRecordService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\BorrowingRecordService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Services\\BorrowingRecordService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\BorrowingRecordService.cs",
+              "ViewState": "AQIAABoAAAAAm5mZmdkgwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:19:48.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatronDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\DTOs\\PatronDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\PatronDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\DTOs\\PatronDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\PatronDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:58:18.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\DTOs\\BookDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\BookDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\DTOs\\BookDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\BookDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:58:18.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240730081147_Inital Create.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Data\\Migrations\\20240730081147_Inital Create.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Migrations\\20240730081147_Inital Create.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Data\\Migrations\\20240730081147_Inital Create.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Migrations\\20240730081147_Inital Create.cs",
+              "ViewState": "AQIAAAQAAAAgAgAAAAARwCIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T08:11:48.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patron.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Entities\\Patron.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Patron.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Entities\\Patron.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Patron.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:37:55.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AQIAABYAAABANDMzMzMtwCcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:22:23.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BorrowingRecordDto.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\DTOs\\BorrowingRecordDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\BorrowingRecordDto.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\DTOs\\BorrowingRecordDto.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\BorrowingRecordDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:58:18.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\BookService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Services\\BookService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\BookService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwCMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:00:17.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-30T07:27:57.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACYAAACAMTMzM7MQwCsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:31:32.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:54:23.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PatronsController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Controllers\\PatronsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatronsController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Controllers\\PatronsController.cs",
+              "RelativeToolTip": "Controllers\\PatronsController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwC4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:23:27.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LibraryProfile.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Mappers\\LibraryProfile.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Mappers\\LibraryProfile.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Mappers\\LibraryProfile.cs",
+              "RelativeToolTip": "..\\Application\\Mappers\\LibraryProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:20:39.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PatronService .cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Services\\PatronService .cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\PatronService .cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Services\\PatronService .cs",
+              "RelativeToolTip": "..\\Application\\Services\\PatronService .cs",
+              "ViewState": "AQIAACcAAACgmZmZmZkwwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:19:00.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Application",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "..\\Application\\Application.csproj",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Application\\Application.csproj",
+              "RelativeToolTip": "..\\Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-30T07:16:58.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Data\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\LibraryDbContext.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Infrastructure\\Data\\LibraryDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\LibraryDbContext.cs",
+              "ViewState": "AQIAAA8AAAAAnJmZmZn5vxcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:45:37.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IBorrowingRecordService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Services\\IBorrowingRecordService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Services\\IBorrowingRecordService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Services\\IBorrowingRecordService.cs",
+              "RelativeToolTip": "..\\Domain\\Services\\IBorrowingRecordService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABgPQgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:43:33.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IPatronService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Services\\IPatronService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Services\\IPatronService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Services\\IPatronService.cs",
+              "RelativeToolTip": "..\\Domain\\Services\\IPatronService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:42:51.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Services\\IBookService.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Services\\IBookService.cs",
+              "RelativeToolTip": "..\\Domain\\Services\\IBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:42:16.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IBorrowingRecordRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Repositories\\IBorrowingRecordRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Repositories\\IBorrowingRecordRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Repositories\\IBorrowingRecordRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Repositories\\IBorrowingRecordRepository.cs",
+              "ViewState": "AQIAAAkAAADA//////8AwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:41:28.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPatronRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Repositories\\IPatronRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Repositories\\IPatronRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Repositories\\IPatronRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Repositories\\IPatronRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABIPQgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:40:58.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Repositories\\IBookRepository.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Repositories\\IBookRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAABUPQ4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:39:32.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BorrowingRecord.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Entities\\BorrowingRecord.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\BorrowingRecord.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Entities\\BorrowingRecord.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\BorrowingRecord.cs",
+              "ViewState": "AQIAAAkAAACA+/////8PwA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:38:07.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Book.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Book.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Domain\\Entities\\Book.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Book.cs",
+              "ViewState": "AQIAAAMAAAAAMzMzMzMrwAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:37:34.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BasAPIController.cs",
+              "DocumentMoniker": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Controllers\\BasAPIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BasAPIController.cs",
+              "ToolTip": "F:\\ROUTE\\Projects\\LibrarySystemAPI\\Presentation.API\\Controllers\\BasAPIController.cs",
+              "RelativeToolTip": "Controllers\\BasAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:34:28.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\bin\Debug\net8.0\Domain.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\bin\Debug\net8.0\Domain.pdb
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+F:\ROUTE\Projects\LibrarySystemAPI\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

@@ -1,0 +1,15 @@
+F:\ROUTE\Projects\Order\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+F:\ROUTE\Projects\Order\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+F:\ROUTE\Projects\Order\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+F:\ROUTE\Projects\Order\Infrastructure\bin\Debug\net8.0\Core.dll
+F:\ROUTE\Projects\Order\Infrastructure\bin\Debug\net8.0\Core.pdb
+F:\ROUTE\Projects\Order\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date

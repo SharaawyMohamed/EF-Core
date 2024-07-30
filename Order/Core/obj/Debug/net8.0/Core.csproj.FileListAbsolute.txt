@@ -1,0 +1,14 @@
+F:\ROUTE\Projects\Order\Core\bin\Debug\net8.0\Core.deps.json
+F:\ROUTE\Projects\Order\Core\bin\Debug\net8.0\Core.runtimeconfig.json
+F:\ROUTE\Projects\Order\Core\bin\Debug\net8.0\Core.dll
+F:\ROUTE\Projects\Order\Core\bin\Debug\net8.0\Core.pdb
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\Core.dll
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\refint\Core.dll
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\Core.pdb
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\Core.genruntimeconfig.cache
+F:\ROUTE\Projects\Order\Core\obj\Debug\net8.0\ref\Core.dll

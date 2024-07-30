@@ -1,0 +1,43 @@
+﻿@using TestMe.Core.Models
+@model invoiceDetail
+@{
+    ViewData["Title"] = "Invoice Details Page";
+}
+<form asp-controller="Games" asp-action="CreateGame" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="productName" class="form-label mt-4"></label>
+                <input type="text" class="form-control" asp-for="productName" placeholder="Enter Product Name">
+                <span asp-validation-for="productName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnitNo" class="form-label mt-4"></label>
+                <input type="text" class="form-control" asp-for="UnitNo" placeholder="Enter Unit Number">
+                <span asp-validation-for="UnitNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="form-label mt-4"></label>
+                <input type="text" class="form-control" asp-for="Price" placeholder="Enter Price">
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="form-label mt-4"></label>
+                <input type="text" class="form-control" asp-for="Quantity" placeholder="Enter Quantity">
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Total" class="form-label mt-4"></label>
+                <input type="text" class="form-control" asp-for="Total" placeholder="Enter Total">
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg text-Wight mt-4">Create</button>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center pt-4">
+            <img id="cover-preview" alt="Cover" />
+        </div>
+    </div>
+</form>
