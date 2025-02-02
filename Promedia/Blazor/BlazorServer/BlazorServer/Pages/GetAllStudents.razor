@@ -1,0 +1,38 @@
+﻿@page "/students"
+@inject IStudentService studentService
+
+<h3>GetAllStudents</h3>
+
+@if (students == null || !students.Any())
+{
+    <p>There is no Students found in databas yet!</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Birth Date</th>
+                <th>Gender</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in students)
+            {
+                <tr>
+                    <td>@student.Id</td>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>@student.BirthOfDate</td>
+                    <td>@student.Gender</td>
+                    <td>@student.Address</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
