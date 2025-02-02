@@ -1,7 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using StudentAPI.Domain;
 using StudentAPI.Domain.Entities;
 using StudentAPI.Repository;
+using System.Net;
+using System.Reflection;
 
 namespace StudentAPI.Services
 {
@@ -14,32 +17,60 @@ namespace StudentAPI.Services
 			_dbContext = dbContext;
 		}
 
-		public async Task<Student> GetStudentById(int Id)
-			=> (await _dbContext.Students.FindAsync(Id))!;
+		public async Task<Student?> GetStudentById(int Id)
+		=>  (_dbContext.Students.FromSqlRaw("SP_GetStudentById @Id={0}", Id).AsEnumerable().FirstOrDefault())!;
 
-		public async Task<IEnumerable<Student>> GetAllStudnts()
-			=> await _dbContext.Students.ToListAsync();
+		public async Task<IEnumerable<Student>?> GetAllStudnts()
+			=> await _dbContext.Students.FromSqlRaw("SP_GetAllStudents").ToListAsync();
 
 		public async Task<bool> IsValidNatianlId(string nationalId)
-			=> !await _dbContext.Students.AnyAsync(stud => stud.NationalId == nationalId);
-
+		{
+			var result = await _dbContext.Database.ExecuteSqlRawAsync("SP_ValidNationalId @NationalId = {0}", nationalId);
+			return result <=0 ;
+		}
 		public async Task<bool> AddStudentAsync(Student student)
 		{
-			_dbContext.Set<Student>().Add(student);
-			return (await _dbContext.SaveChangesAsync()) > 0;
+			try
+			{
+
+				await _dbContext.Database.ExecuteSqlRawAsync(
+				"EXEC SP_AddStudent @FName = {0}, @LName = {1}, @NationalId = {2}, @BirthDate = {3}, @Address = {4}, @Gender = {5}",
+				student.FirstName, student.LastName, student.NationalId, student.BirthOfDate, student.Address, student.Gender);
+				return true;
+			}
+			catch
+			{
+				return false;
+			}
 		}
 
 		public bool DeleteStudent(Student student)
 		{
-			_dbContext.Students.Remove(student);
-			return _dbContext.SaveChanges() > 0;
+			try
+			{
+				_dbContext.Database.ExecuteSqlRaw("EXEC SP_DeleteStudentById @Id = {0}", student.Id);
+				return true;
+			}
+			catch
+			{
+				return false;
+			}
 		}
 
 		public bool UpdateStudent(Student student)
 		{
-			_dbContext.Update(student);
-			return _dbContext.SaveChanges() > 0;
-		}
+			try
+			{
+				_dbContext.Database.ExecuteSqlRaw(
+				 "EXEC SP_UpdateStudent @Id = {0}, @FName = {1}, @LName = {2}, @NationalId = {3}, @BirthDate = {4}, @Address = {5}, @Gender = {6}",
+				  student.Id, student.FirstName, student.LastName, student.NationalId, student.BirthOfDate, student.Address, student.Gender);
+				return true;
+			}
+			catch
+			{
+				return false;
+			}
 
+		}
 	}
 }

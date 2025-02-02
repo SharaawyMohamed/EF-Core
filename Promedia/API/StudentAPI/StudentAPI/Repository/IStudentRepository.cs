@@ -5,9 +5,9 @@ namespace StudentAPI.Repository
 {
 	public interface IStudentRepository
 	{
-		Task<Student> GetStudentById(int Id);
+		Task<Student?> GetStudentById(int Id);
 
-		Task<IEnumerable<Student>> GetAllStudnts();
+		Task<IEnumerable<Student>?> GetAllStudnts();
 
 		Task<bool> AddStudentAsync(Student student);
 

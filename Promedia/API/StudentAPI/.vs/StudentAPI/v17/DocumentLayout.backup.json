@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\responses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\validators\\studentvalidationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\validators\\studentvalidationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\domain\\datatransfareobjects\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|solutionrelative:studentapi\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6786BDF3-305B-4CA5-9073-96C0019A6386}|StudentAPI\\StudentAPI.csproj|f:\\githubrepositories\\tasks\\promedia\\api\\studentapi\\studentapi\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 358,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,20 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "StudentAPI\\Controllers\\StudentController.cs",
-              "ToolTip": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "StudentAPI\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAkAAADAmJmZmZkmwCgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T22:36:03.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Program.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Program.cs",
@@ -124,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StudentAPI.http",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\StudentAPI.http",
               "RelativeDocumentMoniker": "StudentAPI\\StudentAPI.http",
@@ -137,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StudentService.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Service\\StudentService.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Service\\StudentService.cs",
               "ToolTip": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Service\\StudentService.cs",
               "RelativeToolTip": "StudentAPI\\Service\\StudentService.cs",
-              "ViewState": "AgIAAAwAAAAAJjMzMzPjvxoAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAZmZmZmYswBwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T08:55:20.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Responses.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Responses.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Responses.cs",
@@ -163,20 +150,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Repository\\StudentRepository.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Repository\\StudentRepository.cs",
               "ToolTip": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Repository\\StudentRepository.cs",
               "RelativeToolTip": "StudentAPI\\Repository\\StudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwD8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T22:56:46.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "StudentValidationDto.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Validators\\StudentValidationDto.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Validators\\StudentValidationDto.cs",
@@ -184,12 +171,37 @@
               "RelativeToolTip": "StudentAPI\\Validators\\StudentValidationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T10:36:56.074Z",
+              "WhenOpened": "2025-02-01T10:36:56.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Repository\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Repository\\IStudentRepository.cs",
+              "ToolTip": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Repository\\IStudentRepository.cs",
+              "RelativeToolTip": "StudentAPI\\Repository\\IStudentRepository.cs",
+              "ViewState": "AgIAAAYAAADgZWZmZmYswAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T08:51:31.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwDgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T22:36:03.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "StudentDto.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Domain\\DataTransfareObjects\\StudentDto.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Domain\\DataTransfareObjects\\StudentDto.cs",
@@ -197,12 +209,11 @@
               "RelativeToolTip": "StudentAPI\\Domain\\DataTransfareObjects\\StudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T22:39:43.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T22:39:43.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Service\\IStudentService.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Service\\IStudentService.cs",
@@ -210,12 +221,11 @@
               "RelativeToolTip": "StudentAPI\\Service\\IStudentService.cs",
               "ViewState": "AgIAAAQAAACAY2ZmZmYGwA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T08:51:31.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T08:51:31.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Student.cs",
               "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Domain\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "StudentAPI\\Domain\\Entities\\Student.cs",
@@ -223,21 +233,7 @@
               "RelativeToolTip": "StudentAPI\\Domain\\Entities\\Student.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAABkPQsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T08:14:21.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Repository\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "StudentAPI\\Repository\\IStudentRepository.cs",
-              "ToolTip": "F:\\GitHubRepositories\\Tasks\\Promedia\\API\\StudentAPI\\StudentAPI\\Repository\\IStudentRepository.cs",
-              "RelativeToolTip": "StudentAPI\\Repository\\IStudentRepository.cs",
-              "ViewState": "AgIAAAUAAAAgMzMzMzMrwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T08:51:31.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T08:14:21.706Z"
             },
             {
               "$type": "Document",
@@ -249,8 +245,7 @@
               "RelativeToolTip": "StudentAPI\\Profiles\\MappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:24:42.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T09:24:42.214Z"
             },
             {
               "$type": "Document",
@@ -262,8 +257,7 @@
               "RelativeToolTip": "StudentAPI\\Domain\\DataTransfareObjects\\StudentToReturnDto.cs",
               "ViewState": "AgIAAAYAAAAAZWZmZmYSwBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T09:47:43.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T09:47:43.845Z"
             },
             {
               "$type": "Document",
@@ -275,8 +269,7 @@
               "RelativeToolTip": "StudentAPI\\Domain\\PromediaContext.cs",
               "ViewState": "AgIAABQAAACAzczMzGwwwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T08:11:59.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T08:11:59.511Z"
             },
             {
               "$type": "Document",
@@ -301,8 +294,7 @@
               "RelativeToolTip": "StudentAPI\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T22:36:16.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T22:36:16.943Z"
             }
           ]
         }
